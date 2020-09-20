@@ -2313,7 +2313,7 @@ input, select, textarea {
 		}
 
 		.icon.style4:before {
-			color: #57aed3;
+			color: #d172ad;
 		}
 
 		.icon.style5:before {
@@ -2444,12 +2444,12 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1em;
+		margin-left: -1rem;
 		padding-left: 0;
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1em;
+			padding: 0 0 0 1rem;
 			vertical-align: middle;
 		}
 
@@ -2475,7 +2475,7 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3em 0 0 0;
+				padding: 1.3rem 0 0 0;
 			}
 
 				ul.actions.stacked li:first-child {
@@ -2483,7 +2483,7 @@ input, select, textarea {
 				}
 
 		ul.actions.fit {
-			width: calc(100% + 1em);
+			width: calc(100% + 1rem);
 		}
 
 			ul.actions.fit li {
@@ -2526,7 +2526,7 @@ input, select, textarea {
 					-webkit-flex-shrink: 1;
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
-					padding: 1em 0 0 0;
+					padding: 1rem 0 0 0;
 					text-align: center;
 					width: 100%;
 				}
