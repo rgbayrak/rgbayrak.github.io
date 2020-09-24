@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #555;
+		color: #fff;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2802,7 +2802,7 @@ input, select, textarea {
 			background-color: #4686a0;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed,							fixed;
-			background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+			background-image:  url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #2B3C4A, #2B3C4A 40%, #000 99%);
 			background-position: top left,						center center,					center center;
 			background-size: auto,							cover,							cover;
 			text-align: center;
