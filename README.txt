@@ -1,1 +1,1 @@
-I am updating this website every Sunday. 
+I am updating this website when something exciting happens! 
