@@ -7,8 +7,8 @@
     "url": "https://rgbayrak.github.io/",
     "summary": "A Turkish-born computational neuroimaging researcher, with a passion in open and inclusive science.",
     "location": {
-      "address": "West End Ave",
-      "postalCode": "TN 37235",
+      "address": "1400 18th Ave S",
+      "postalCode": "TN 37212",
       "city": "Nashville",
       "countryCode": "US",
       "region": "Tennessee"
@@ -35,9 +35,9 @@
   "volunteer": [
     {
       "organization": "BrainHack Vanderbilt",
-      "location": "Zurich, Switzerland",
+      "location": "Nashville, Tennessee, United States",
       "position": "Lead Organizer",
-      "url": "https://example.com",
+      "url": "https://brainhack-vandy.github.io/",
       "startDate": "2014-04-01",
       "endDate": "2015-07-01",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
