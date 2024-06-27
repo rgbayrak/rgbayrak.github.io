@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Following what excites me.
+subtitle: Following the research path that excites me.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Sony Building B4018</p>
+    <p>Room B-4018 Sony Building</p>
     <p>1400 18th Ave S</p>
     <p>Nashville, TN 37212</p>
 
