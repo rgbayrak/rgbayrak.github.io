@@ -1,10 +1,9 @@
 github_users:
   - rgbayrak
-  - neurdylab
 
 repo_description_lines_max: 2
 
 github_repos:
   - rgbayrak/NeuroGraph
-  - rgbayrak/deep-physio-recon
+  - neurdylab/deep-physio-recon
   - neurdylab/PRAGMA

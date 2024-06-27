@@ -18,7 +18,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Research Assistant Professor in Computer Science at the Vanderbilt University.  My research focuses on large-scale neuroimaging data analysis. During my PhD, I developed individual specific computational approaches to improve precision in brain mapping. I have expertise and publication track record in: (1) multivariate time series modeling and analysis for brain-body research, (2) interactive data visualization and analysis, (3) graph-based advanced machine learning, and (4) diffusion tractography. 
+I am a Research Assistant Professor in Computer Science at the Vanderbilt University. My research focuses on large-scale neuroimaging data analysis. During my PhD, I developed individual specific computational approaches to improve precision in brain mapping. I have expertise and publication track record in: 
+
+- multivariate time series modeling and analysis for brain-body research, 
+- interactive data visualization and analysis, 
+- graph-based advanced machine learning, and 
+- diffusion tractography.
 
 I am an active member and previously served in leadership positions in several open science initiatives and communities, including the Organization for Human Brain Mapping's Open Science Special Interest Group, PhysioPy, and BrainHack Global. My work is deeply influenced by and incorporates best practices in reproducibility and open science.
 
