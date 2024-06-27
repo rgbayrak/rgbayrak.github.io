@@ -26,7 +26,7 @@
       "name": "Computer Science, Vanderbilt University",
       "position": "Research Assistant Professor",
       "url": "https://engineering.vanderbilt.edu/departments/computer-science/",
-      "startDate": "August 2023",
+      "startDate": "Aug. 2023",
       "endDate": "Current",
       "summary": "I navigate the vast landscapes of neuroimaging, crafting methodologies where the intellectual terra incognita begins.",
       "highlights": ["Neuroimaging, Machine Learning, Open Science"]
@@ -47,8 +47,8 @@
       "location": "Nashville, TN",
       "position": "Lead Organizer",
       "url": "https://brainhack-vandy.github.io/",
-      "startDate": "August 2023",
-      "endDate": "January 2024",
+      "startDate": "Aug. 2023",
+      "endDate": "Jan. 2024",
       "summary": "Lead organizer of the inaugural multi-department gathering for inter-disciplinary brain research."
     },
     {
@@ -75,8 +75,8 @@
       "institution": "Vanderbilt University, Nashville, TN",
       "location": "Nashville, TN",
       "url": "https://engineering.vanderbilt.edu",
-      "area": "Computational Neuroimaging",
-      "studyType": "PhD",
+      "area": "Thesis: Computational Methods to Advance Individual Precision in Brain Mapping",
+      "studyType": "PhD in Computer Science",
       "startDate": "2018",
       "endDate": "2023"
     }
