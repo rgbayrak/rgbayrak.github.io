@@ -4,7 +4,7 @@ title: project 4
 description: another without an image
 img:
 importance: 3
-category: 2023
+category: Advanced Machine Learning
 ---
 
 Every project has a beautiful feature showcase page.

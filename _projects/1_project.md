@@ -4,7 +4,7 @@ title: project 1
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: 2024
+category: Peripheral Physiology
 related_publications: true
 ---
 
