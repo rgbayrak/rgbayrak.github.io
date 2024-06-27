@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing stash of projects I've stirred and stirred into.
 nav: true
 nav_order: 3
-display_categories: [2024, 2023]
+display_categories: [2024, 2023, 2022, 2021]
 horizontal: false
 ---
 
