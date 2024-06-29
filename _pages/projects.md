@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: A growing stash of projects I've stirred and stirred into.
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [Peripheral Physiology, Advanced Machine Learning, Diffusion Tractography]
 horizontal: false
 ---

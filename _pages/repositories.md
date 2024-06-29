@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: A growing collection of repositories I've maybe crafted or forked but definitely nurtured.
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 ## GitHub users
