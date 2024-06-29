@@ -2,7 +2,7 @@
 layout: post
 title: Presenting 3 abstracts at the OHBM Annual Meeting!
 date: 2024-06-25 15:59:00-0400
-inline: true
+inline: false
 related_posts: false
 ---
 
