@@ -6,9 +6,9 @@ inline: true
 related_posts: false
 ---
 
-This year I have 3 abstracts in the [OHBM Annual Meeting](https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=1). :nerd_face:
+This year I have 3 abstracts in the <a href="https://www.humanbrainmapping.org">OHBM Annual Meeting</a>. :nerd_face:
 
-One oral presentation, presenting our community efforts [PhysioPy](https://github.com/physiopy).
+One oral presentation, presenting our community efforts <a href="https://github.com/physiopy">PhysioPy</a>.
 
 Two poster presentations featuring
 (1) the latest updates on Physio Patterns, and
