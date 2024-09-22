@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: A growing stash of projects I've stirred and stirred into.
-nav: true
+nav: false
 nav_order: 2
 display_categories: [Peripheral Physiology, Advanced Machine Learning, Diffusion Tractography]
 horizontal: false
