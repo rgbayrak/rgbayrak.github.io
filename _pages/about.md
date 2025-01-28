@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Research Assistant Professor in Computer Science at the [Vanderbilt University](https://www.vanderbilt.edu/). My research focuses on large-scale neuroimaging data analysis. During my PhD, I developed individual specific computational approaches to improve precision in brain mapping.
+I am a Senior Research Engineer and Research Assistant Professor in Electrical and Computer Engineering at the [Vanderbilt University](https://www.vanderbilt.edu/). My research focuses on large-scale neuroimaging data analysis. During my PhD, I developed individual specific computational approaches to improve precision in brain mapping.
 
 I have expertise and publication track record in:
 
@@ -29,7 +29,7 @@ I have expertise and publication track record in:
 
 I was advised by and presently collaborate with Prof. [Catie Chang](https://engineering.vanderbilt.edu/bio/?pid=catie-chang).
 
-I am an active member and previously served in leadership positions in several open science initiatives and communities, including the Organization for Human Brain Mapping's [Open Science Special Interest Group](https://ossig.netlify.app), [PhysioPy](https://github.com/physiopy), and [BrainHack School](https://school-brainhack.github.io/). My work is deeply influenced by and incorporates best practices in [reproducible research](https://ttw-rtd.readthedocs.io/en/latest/reproducible-research/reproducible-research.html) and [open science](https://en.wikipedia.org/wiki/Open_science).
+I am the founder of [BrainHack Vanderbilt](brainhack-vandy.github.io). Additionally, I serve as active member or previously served in leadership positions in several open science initiatives and communities, including the Organization for Human Brain Mapping's [Open Science Special Interest Group](https://ossig.netlify.app), [PhysioPy](https://github.com/physiopy), and [BrainHack School](https://school-brainhack.github.io/). My work is deeply influenced by and incorporates best practices in [reproducible research](https://ttw-rtd.readthedocs.io/en/latest/reproducible-research/reproducible-research.html) and [open science](https://en.wikipedia.org/wiki/Open_science).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
