@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: CV_RozaBayrak_07.2025.pdf
-description: Below you will find my academic curriculum vitae. Feel free to peruse the chronicles of my quest for knowledge.
+description: See the pdf for my academic curriculum vitae. Feel free to peruse the chronicles of my quest for knowledge.
 toc:
   sidebar: left
 ---
