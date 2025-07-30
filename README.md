@@ -1,1 +1,1 @@
-Copyright @2024 Roza G. Bayrak
+Copyright @2025 Roza G. Bayrak
