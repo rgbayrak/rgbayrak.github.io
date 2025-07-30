@@ -9,16 +9,16 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Room B-4018 Sony Building</p>
-    <p>1400 18th Ave S</p>
-    <p>Nashville, TN 37212</p>
+    <p>Room 375 Featheringill Hall</p>
+    <p>400 24th Ave S</p>
+    <p>Nashville, TN 37240</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Senior Research Engineer and Research Assistant Professor in Electrical and Computer Engineering at the [Vanderbilt University](https://www.vanderbilt.edu/). My research focuses on large-scale neuroimaging data analysis. During my PhD, I developed individual specific computational approaches to improve precision in brain mapping.
+I am a Senior Research Engineer and Research Assistant Professor in Electrical and Computer Engineering at the [Vanderbilt University](https://www.vanderbilt.edu/). My research focuses on large-scale neuroimaging data analysis. During and since my PhD, I have developed individual specific computational approaches to improve precision in brain mapping.
 
 I have expertise and publication track record in:
 
