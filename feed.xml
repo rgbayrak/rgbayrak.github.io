@@ -1,59 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://rgbayrak.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://rgbayrak.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-07-30T19:52:27+00:00</updated><id>https://rgbayrak.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">How to Edit and Create Blog Posts</title><link href="https://rgbayrak.github.io/blog/2024/how-to-edit-blog-posts/" rel="alternate" type="text/html" title="How to Edit and Create Blog Posts"/><published>2024-12-19T12:00:00+00:00</published><updated>2024-12-19T12:00:00+00:00</updated><id>https://rgbayrak.github.io/blog/2024/how-to-edit-blog-posts</id><content type="html" xml:base="https://rgbayrak.github.io/blog/2024/how-to-edit-blog-posts/"><![CDATA[<h2 id="how-to-edit-existing-blog-posts">How to Edit Existing Blog Posts</h2> <h3 id="1-find-the-post-file">1. Find the Post File</h3> <p>All blog posts are stored in the <code class="language-plaintext highlighter-rouge">_posts/</code> directory. Each post is a markdown file with the naming convention:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>YYYY-MM-DD-title.md
-</code></pre></div></div> <h3 id="2-edit-the-front-matter">2. Edit the Front Matter</h3> <p>Each post starts with front matter (the section between <code class="language-plaintext highlighter-rouge">---</code> markers):</p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
-<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
-<span class="na">title</span><span class="pi">:</span> <span class="s">Your Post Title</span>
-<span class="na">date</span><span class="pi">:</span> <span class="s">2024-12-19 12:00:00</span>
-<span class="na">description</span><span class="pi">:</span> <span class="s">Brief description of your post</span>
-<span class="na">tags</span><span class="pi">:</span> <span class="s">tag1 tag2 tag3</span>
-<span class="na">categories</span><span class="pi">:</span> <span class="s">category-name</span>
-<span class="nn">---</span>
-</code></pre></div></div> <h3 id="3-edit-the-content">3. Edit the Content</h3> <p>After the front matter, you can write your content using:</p> <ul> <li><strong>Markdown</strong> for formatting</li> <li><strong>HTML</strong> for advanced formatting</li> <li><strong>Liquid templates</strong> for dynamic content</li> </ul> <h2 id="how-to-create-new-blog-posts">How to Create New Blog Posts</h2> <h3 id="1-create-a-new-file">1. Create a New File</h3> <p>Create a new <code class="language-plaintext highlighter-rouge">.md</code> file in the <code class="language-plaintext highlighter-rouge">_posts/</code> directory with the format:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>YYYY-MM-DD-your-title.md
-</code></pre></div></div> <h3 id="2-add-front-matter">2. Add Front Matter</h3> <p>Start your file with the front matter:</p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
-<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
-<span class="na">title</span><span class="pi">:</span> <span class="s">Your New Post Title</span>
-<span class="na">date</span><span class="pi">:</span> <span class="s">2024-12-19 12:00:00</span>
-<span class="na">description</span><span class="pi">:</span> <span class="s">Brief description of your post</span>
-<span class="na">tags</span><span class="pi">:</span> <span class="s">your tags here</span>
-<span class="na">categories</span><span class="pi">:</span> <span class="s">your category</span>
-<span class="nn">---</span>
-</code></pre></div></div> <h3 id="3-write-your-content">3. Write Your Content</h3> <p>Use markdown to write your content:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Main Heading</span>
-<span class="gu">## Subheading</span>
-
-This is a paragraph with <span class="gs">**bold text**</span> and <span class="ge">*italic text*</span>.
-<span class="p">
--</span> List item 1
-<span class="p">-</span> List item 2
-<span class="p">-</span> List item 3
-
-<span class="p">[</span><span class="nv">Link text</span><span class="p">](</span><span class="sx">https://example.com</span><span class="p">)</span>
-
-<span class="p">![</span><span class="nv">Image alt text</span><span class="p">](</span><span class="sx">path/to/image.jpg</span><span class="p">)</span>
-</code></pre></div></div> <h2 id="available-front-matter-options">Available Front Matter Options</h2> <ul> <li><code class="language-plaintext highlighter-rouge">layout: post</code> - Required for blog posts</li> <li><code class="language-plaintext highlighter-rouge">title:</code> - Your post title</li> <li><code class="language-plaintext highlighter-rouge">date:</code> - Publication date</li> <li><code class="language-plaintext highlighter-rouge">description:</code> - Brief description (appears in previews)</li> <li><code class="language-plaintext highlighter-rouge">tags:</code> - Tags for categorization</li> <li><code class="language-plaintext highlighter-rouge">categories:</code> - Categories for organization</li> <li><code class="language-plaintext highlighter-rouge">thumbnail:</code> - Path to thumbnail image</li> <li><code class="language-plaintext highlighter-rouge">featured: true</code> - Mark as featured post</li> <li><code class="language-plaintext highlighter-rouge">external_source:</code> - For posts from external sources</li> </ul> <h2 id="tips-for-editing">Tips for Editing</h2> <ol> <li><strong>Preview your changes</strong> by running your Jekyll site locally</li> <li><strong>Use descriptive titles</strong> that reflect the content</li> <li><strong>Add relevant tags</strong> to help readers find your posts</li> <li><strong>Include images</strong> to make posts more engaging</li> <li><strong>Keep descriptions concise</strong> but informative</li> </ol> <h2 id="example-of-a-complete-post">Example of a Complete Post</h2> <p>Here’s what a complete blog post structure looks like:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
-<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
-<span class="na">title</span><span class="pi">:</span> <span class="s">My Amazing Research Discovery</span>
-<span class="na">date</span><span class="pi">:</span> <span class="s">2024-12-19 12:00:00</span>
-<span class="na">description</span><span class="pi">:</span> <span class="s">I discovered something incredible in my research today</span>
-<span class="na">tags</span><span class="pi">:</span> <span class="s">research discovery science</span>
-<span class="na">categories</span><span class="pi">:</span> <span class="s">research</span>
-<span class="na">thumbnail</span><span class="pi">:</span> <span class="s">/assets/img/research.jpg</span>
-<span class="nn">---</span>
-
-<span class="gh"># My Amazing Research Discovery</span>
-
-Today I made an incredible breakthrough in my research...
-
-<span class="gu">## The Discovery</span>
-
-The key finding was...
-
-<span class="gu">## Implications</span>
-
-This discovery has several important implications...
-
-<span class="gu">## Conclusion</span>
-
-In conclusion, this research opens up new possibilities...
-</code></pre></div></div> <p>That’s it! You now know how to edit existing posts and create new ones for your blog.</p>]]></content><author><name></name></author><category term="guides"/><category term="tutorial"/><category term="blog"/><category term="editing"/><summary type="html"><![CDATA[A guide on how to modify existing blog posts and create new ones]]></summary></entry><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://rgbayrak.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://rgbayrak.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://rgbayrak.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://rgbayrak.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://rgbayrak.github.io/blog/2024/tabs</id><content type="html" xml:base="https://rgbayrak.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://rgbayrak.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://rgbayrak.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-07-30T20:56:09+00:00</updated><id>https://rgbayrak.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://rgbayrak.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://rgbayrak.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://rgbayrak.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://rgbayrak.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://rgbayrak.github.io/blog/2024/tabs</id><content type="html" xml:base="https://rgbayrak.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
 
 <span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
 
@@ -68,16 +13,16 @@ Content 2
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
 
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="2f58add0-c658-4e24-ac8b-9a6c68738b5f" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="2f58add0-c658-4e24-ac8b-9a6c68738b5f" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
+</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="0ff7cbe1-c3e5-40e4-b726-564b08dfdbb8" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="0ff7cbe1-c3e5-40e4-b726-564b08dfdbb8" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="9ed433a7-b5c2-456a-a811-d58eacf1079c" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="9ed433a7-b5c2-456a-a811-d58eacf1079c" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
+</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="89cda1d1-57a5-4bcd-9cee-3f30b43a3e78" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="89cda1d1-57a5-4bcd-9cee-3f30b43a3e78" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
 </code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="7c41d071-2597-4886-8856-1b2db85c3987" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="7c41d071-2597-4886-8856-1b2db85c3987" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://rgbayrak.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://rgbayrak.github.io/blog/2024/typograms</id><content type="html" xml:base="https://rgbayrak.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
+</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="7d7c6422-6f59-4b68-a3bd-a7aca38d9d79" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="7d7c6422-6f59-4b68-a3bd-a7aca38d9d79" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://rgbayrak.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://rgbayrak.github.io/blog/2024/typograms</id><content type="html" xml:base="https://rgbayrak.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
 </span><span class="sb">+----+
 |    |---&gt; My first diagram!
 +----+</span>
@@ -783,4 +728,50 @@ index 3bb754ac..a34839c0 100644
     }
   ]
 }
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><category term="maps"/><summary type="html"><![CDATA[this is what included geojson code could look like]]></summary></entry></feed>
+</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><category term="maps"/><summary type="html"><![CDATA[this is what included geojson code could look like]]></summary></entry><entry><title type="html">a post with echarts</title><link href="https://rgbayrak.github.io/blog/2024/echarts/" rel="alternate" type="text/html" title="a post with echarts"/><published>2024-01-26T16:03:00+00:00</published><updated>2024-01-26T16:03:00+00:00</updated><id>https://rgbayrak.github.io/blog/2024/echarts</id><content type="html" xml:base="https://rgbayrak.github.io/blog/2024/echarts/"><![CDATA[<p>This is an example post with some <a href="https://echarts.apache.org/">echarts</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">echarts
+</span><span class="sb">{
+  "title": {
+    "text": "ECharts Getting Started Example"
+  },
+  "responsive": true,
+  "tooltip": {},
+  "legend": {
+    "top": "30px",
+    "data": ["sales"]
+  },
+  "xAxis": {
+    "data": ["Shirts", "Cardigans", "Chiffons", "Pants", "Heels", "Socks"]
+  },
+  "yAxis": {},
+  "series": [
+    {
+      "name": "sales",
+      "type": "bar",
+      "data": [5, 20, 36, 10, 10, 20]
+    }
+  ]
+}</span>
+<span class="p">```</span>
+</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-echarts">{
+  "title": {
+    "text": "ECharts Getting Started Example"
+  },
+  "responsive": true,
+  "tooltip": {},
+  "legend": {
+    "top": "30px",
+    "data": ["sales"]
+  },
+  "xAxis": {
+    "data": ["Shirts", "Cardigans", "Chiffons", "Pants", "Heels", "Socks"]
+  },
+  "yAxis": {},
+  "series": [
+    {
+      "name": "sales",
+      "type": "bar",
+      "data": [5, 20, 36, 10, 10, 20]
+    }
+  ]
+}
+</code></pre> <p>Note that this library offer support for both light and dark themes. You can switch between them using the theme switcher in the top right corner of the page.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included echarts code could look like]]></summary></entry></feed>
