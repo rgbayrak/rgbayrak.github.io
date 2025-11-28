@@ -1,0 +1,326 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+@inproceedings{li2025cbrain,
+  title={CBrain: Cross-Modal Learning for Brain Vigilance Detection in Resting-State fMRI},
+  author={Li, Chang and Li, Yamin and Pourmotabbed, Haatef and Zhang, Shengchao and Salas, Jorge A and Goodale, Sarah E and Bayrak, Roza G and Chang, Catie},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={109--119},
+  year={2025},
+  organization={Springer},
+  bibtex_show={true},
+  abstract={Detecting human vigilance states (e.g., natural shifts between alertness and drowsiness) from functional magnetic resonance imaging (fMRI) data can provide novel insight into the whole-brain patterns underlying these critical states. Moreover, as a person’s vigilance levels are closely tied to their behavior and brain activity, vigilance state can strongly influence the results of fMRI studies. Therefore, the ability to annotate fMRI scans with vigilance information can also enable clearer and more robust results in fMRI research. However, well-established vigilance indicators are derived from other modalities such as behavioral responses, electroencephalography (EEG), and pupillometry, which are not typically available in fMRI data collection. While previous works indicate the promise of distinguishing vigilance states from fMRI alone, EEG data can provide reliable vigilance indicators that complement and augment fMRI domain information. Here, we propose CBrain: Cross-modal learning for Brain vigilance detection in resting-state fMRI. Our model transfers EEG vigilance information into an fMRI latent space in training, and predicts human vigilance states using only fMRI data in testing, addressing the need for external vigilance indicators. Experimental results demonstrate CBrain’s ability to predict vigilance states across different individuals at a granularity of 10-fMRI-frames with an 81.07% mF1 score on a test set of unseen subjects. Additionally, our generalization experiments highlight the model’s potential to estimate vigilance in an unseen task and in resting-state fMRI scans collected with a different scanner at a different site.},
+  code={https://github.com/neurdylab/CBrain},
+  doi={10.1007/978-3-032-04927-8_11},
+  abbr={MICCAI}
+}
+
+@article{bayrak2025deepphysiorecon,
+  title={DeepPhysioRecon: Tracing peripheral physiology in low frequency fMRI dynamics},
+  author={Bayrak, Roza G and Hansen, Colin B and Salas, Jorge A and Ahmed, Nafis and Lyu, Ilwoo and Mather, Mara and Huo, Yuankai and Chang, Catie},
+  abbr={Imag. Neurosci.},
+  year={2025},
+  publisher={MIT Press 255 Main Street, 9th Floor, Cambridge, Massachusetts 02142, USA},
+  doi={10.1162/IMAG.a.163},
+  altmetric={true},
+  dimensions={true},
+  bibtex_show={true},
+  selected={true},
+  preview={rvhr_imag.jpg},
+  google_scholar_id={YOwf2qJgpHMC},
+  code={https://github.com/neurdylab/deep-physio-recon},
+  abstract={Many studies of the human brain using functional magnetic resonance imaging (fMRI) lack physiological measurements, which substantially impacts the interpretation and richness of fMRI studies. Natural fluctuations in autonomic physiology, such as breathing and heart rate, provide windows into critical functions, including cognition, emotion, and health, and can heavily influence fMRI signals. Here, we developed DeepPhysioRecon, a Long-Short-Term-Memory (LSTM)-based network that decodes continuous variations in respiration amplitude and heart rate directly from whole-brain fMRI dynamics. Through systematic evaluations, we investigate the generalizability of this approach across datasets and experimental conditions. We also demonstrate the importance of including these measures in fMRI analyses. This work highlights the importance of studying brain-body interactions, proposes a tool that may enhance the efficacy of fMRI as a biomarker, and provides widely applicable open-source software.}
+}
+
+@inproceedings{wang2025vq,
+  title={A VQ-VAE framework for modeling physiological information in fMRI},
+  author={Wang, Shiyu and Li, Yamin and Xu, Ziyuan and Pourmotabbed, Haatef and Li, Chang and Bayrak, Roza G and Chang, Catie},
+  booktitle={NeurIPS 2025 Workshop on Foundation Models for the Brain and Body},
+  year={2025},
+  bibtex_show={true},
+  abbr={NeurIPS Workshop},
+  abstract={The coupling between functional magnetic resonance imaging (fMRI) and autonomic physiological processes is not merely “noise”, but captures important brain-body interactions. This relationship is likely bidirectional: autonomic fluctuations can influence brain activity and hemodynamics, and neuronal activity can modulate systemic physiological processes. This complexity makes it difficult for traditional linear approaches to fully characterize their relationship. Here, we introduce a novel application of vector quantized variational autoencoder (VQ-VAE) to characterize whole-brain patterns associated with respiration using the discretized fMRI latent space. Further, we demonstrate that this framework can be leveraged to assess the quality of fMRI-based reconstructions of low-frequency respiratory fluctuations when physiological recordings are missing or corrupted. The success of our model indicates that we can extract the non-linear relationship between the fMRI brain signals and bodily autonomic processes, revealing their intrinsic connections in the cross-modal latent space.}
+}
+
+@inproceedings{wang2025reconstructing,
+  title={Reconstructing physiological signals from fMRI across the adult lifespan},
+  author={Wang, Shiyu and Xu, Ziyuan and Lochard, Laurent M and Li, Yamin and Fan, Jiawen and Chen, Jingyuan E and Huo, Yuankai and Mather, Mara and Bayrak, Roza G and Chang, Catie},
+  booktitle={Medical Imaging 2025: Image Processing},
+  volume={13406},
+  pages={145--151},
+  year={2025},
+  organization={SPIE},
+  bibtex_show={true},
+  abbr={SPIE},
+  code={https://github.com/neurdylab/deep-physio-recon-lifespan},
+  doi={10.1117/12.3046980},
+  altmetric={true},
+  dimensions={true},
+}
+
+@article{li2024neurobolt,
+  title={NeuroBOLT: Resting-state EEG-to-fMRI synthesis with multi-dimensional feature mapping},
+  author={Li, Yamin and Lou, Ange and Xu, Ziyuan and Zhang, Shengchao and Wang, Shiyu and Englot, Dario and Kolouri, Soheil and Moyer, Daniel and Bayrak, Roza and Chang, Catie},
+  journal={Advances in Neural Information Processing Systems (NeurIPS)},
+  volume={37},
+  pages={23378--23405},
+  year={2024},
+  abbr={NeurIPS},
+  code={https://github.com/soupeeli/NeuroBOLT},
+  doi={10.48550/arXiv.2410.05341},
+  bibtex_show={true},
+  selected={true},
+  altmetric={true},
+  dimensions={true},
+}
+
+@inproceedings{bayrak2024physiopy,
+  title={Physiopy: a Python suite for handling physiological data recorded in neuroimaging settings},
+  author={Bayrak, Roza G and Chang, Catie and Bottenhorn, Katherine and Bright, Molly and Caballero-Gaudes, Cesar and Chavarria, Ines and Duncan, Niall and Esteves, Inês and Ferrer, Vicente and Fournier, Raphael and Glen, Daniel and Goodale, Sarah and Lenc, Tomas and Lespinasse, François and Magielse, Neville and Miedema, Mary and Moia, Stefano and Oostenveld, Robert and Picard, Marie-Eve and Pinto, Joana and Provins, Céline and Salo, Taylor and Steinkamp, Simon and Stickland, Rachael and Tan, Mi Xue and Wang, Hao-Ting and Zvolanek, Kristina and Zwiers, Marcel and Community, Physiopy.},
+  booktitle={Organization for Human Brain Mapping--OHBM 2024: 30th International Conference, Seoul, Korea, June 23 –- 27, 2024, Proceedings},
+  abbr={OHBM},
+  year={2024},
+  preview={physiopy.jpg},
+  bibtex_show={true},
+  poster={OHBM2024_PHYSIOPY_RGB.pdf},
+  video={https://www.youtube.com/watch?v=FnVC34PaTz4}
+}
+
+@article{said2023neurograph,
+  title={Neurograph: Benchmarks for graph machine learning in brain connectomics},
+  author={Said, Anwar and Bayrak, Roza G and Derr, Tyler and Shabbir, Mudassir and Moyer, Daniel and Chang, Catie and Koutsoukos, Xenofon},
+  journal={ (NeurIPS)},
+  volume={36},
+  abbr={NeurIPS},
+  pages={6509--6531},
+  year={2023},
+  preview={neurograph.jpg},
+  bibtex_show={true},
+  code={https://github.com/rgbayrak/NeuroGraph},
+  arxiv={2306.06202},
+  google_scholar_id={UebtZRa9Y70C},
+  selected={true},
+  altmetric={true},
+  dimensions={true},
+  abstract={Machine learning provides a valuable tool for analyzing high-dimensional functional neuroimaging data, and is proving effective in predicting various neurological conditions, psychiatric disorders, and cognitive patterns. In functional magnetic resonance imaging (MRI) research, interactions between brain regions are commonly modeled using graph-based representations. The potency of graph machine learning methods has been established across myriad domains, marking a transformative step in data interpretation and predictive modeling. Yet, despite their promise, the transposition of these techniques to the neuroimaging domain has been challenging due to the expansive number of potential preprocessing pipelines and the large parameter search space for graph-based dataset construction. In this paper, we introduce NeuroGraph, a collection of graph-based neuroimaging datasets, and demonstrated its utility for predicting multiple categories of behavioral and cognitive traits. We delve deeply into the dataset generation search space by crafting 35 datasets that encompass static and dynamic brain connectivity, running in excess of 15 baseline methods for benchmarking. Additionally, we provide generic frameworks for learning on both static and dynamic graphs. Our extensive experiments lead to several key observations. Notably, using correlation vectors as node features, incorporating larger number of regions of interest, and employing sparser graphs lead to improved performance. To foster further advancements in graph-based data driven neuroimaging analysis, we offer a comprehensive open-source Python package that includes the benchmark datasets, baseline implementations, model training, and standard evaluation.}
+}
+
+@inproceedings{bayrak2023physiopy,
+  title={Physiopy: a Python suite for handling physiological data recorded in neuroimaging settings},
+  author={Bayrak, Roza G, Moia, Stefano, Chang, Catie and Bottenhorn, Katherine and Bright, Molly and Caballero-Gaudes, Cesar and Chavarria, Ines and Duncan, Niall and Esteves, Inês and Ferrer, Vicente and Fournier, Raphael and Glen, Daniel and Goodale, Sarah and Lenc, Tomas and Lespinasse, François and Magielse, Neville and Miedema, Mary and Moia, Stefano and Oostenveld, Robert and Picard, Marie-Eve and Pinto, Joana and Provins, Céline and Salo, Taylor and Steinkamp, Simon and Stickland, Rachael and Tan, Mi Xue and Wang, Hao-Ting and Zvolanek, Kristina and Zwiers, Marcel and Community, Physiopy.},
+  booktitle={Organization for Human Brain Mapping--OHBM 2023: 29th International Conference, Montreal, Canada, July 22 –- 26, 2024, Proceedings},
+  abbr={OHBM},
+  year={2023},
+  preview={physiopy.jpg},
+  bibtex_show={true},
+  poster={OHBM2023_PHYSIOPY_RGB.pdf},
+  video={https://www.youtube.com/watch?v=_2WPp-lcpl0},
+  abstract={Since functional MRI (fMRI) is based on measurements of blood oxygenation it is influenced not only by changes in neural activity, but also by any bodily physiological processes that modulate blood oxygenation. These processes may confound the measurement of certain neural features with fMRI, but at the same time, they can also provide useful windows into critical functions including cognition, emotion, and health. To this end, it is beneficial to monitor physiological activity during fMRI acquisition (e.g., by recording cardiac activity, chest compression, O2/CO2 gas levels, and skin conductance). Indeed, there is a growing interest in physiological data collection in the neuroimaging community. To expand and facilitate the use of physiological data, we created physiopy, a community-driven effort aimed to offer end-to-end pipelines for collecting, correcting, and using physiological recordings. Physiopy leverages the Brain Imaging Data Structure (BIDS) protocol and thrives on building consensus on 'community practices' among researchers in an open, transparent, and reproducible manner. The four pillars of the physiopy project are (i) suite of easily usable software, (ii) clear documentation, (iii) best practices based on consensus, and (iv) community of users, developers, and researchers interested in physiology.}
+}
+
+@inproceedings{thumbs,
+  title={Thumbs up or down: Simple quality assessment tool for physiological signals},
+  author={Bayrak, Roza G and Song, Richard and Yang, Ruogi and Chang, Catie},
+  booktitle={Organization for Human Brain Mapping--OHBM 2024: 30th International Conference, Seoul, Korea, June 23 –- 27, 2024, Proceedings},
+  abbr={OHBM},
+  year={2024},
+  preview={physioqa.jpg},
+  poster={OHBM2024_QA_RGB.pdf}
+}
+
+@inproceedings{bayrak2024physiological,
+  title={Physiological Signatures Across the Brain},
+  author={Bayrak, Roza G and Ahmed, Nafis and Mather, Mara and Huo, Yuankai and Chang, Catie},
+  booktitle={Organization for Human Brain Mapping--OHBM 2024: 30th International Conference, Seoul, Korea, June 23 –- 27, 2024, Proceedings},
+  abbr={OHBM},
+  year={2024},
+  preview={pp.jpg},
+  poster={OHBM2024_PP_RGB.pdf}
+}
+
+@inproceedings{bayrak2022learning,
+  title={Learning subject-specific functional parcellations from cortical surface measures},
+  author={Bayrak, Roza G and Lyu, Ilwoo and Chang, Catie},
+  booktitle={International Workshop on PRedictive Intelligence In MEdicine},
+  abbr={PRIME Workshop},
+  pages={172--180},
+  year={2022},
+  organization={Springer},
+  doi={10.1007/978-3-031-16919-9_16},
+  altmetric={true},
+  dimensions={true},
+  url={https://link.springer.com/chapter/10.1007/978-3-031-16919-9_16},
+  preview={str2func.jpg},
+  google_scholar_id={roLk4NBRz8UC}
+}
+
+@article{moia2024proceedings,
+  title={Proceedings of the OHBM Brainhack 2022},
+  author={Moia, Stefano and Wang, Hao-Ting and Heinsfeld, Anibal S and Jarecka, Dorota and Yang, Yu Fang and Heunis, Stephan and Svanera, Michele and De Leener, Benjamin and Gondov{\'a}, Andrea and Kim, Sin and others},
+  journal={Aperture Neuro},
+  year={2024},
+  doi={10.52294/001c.92760},
+  bibtex_show={true},
+  abbr={Aperture Neuro}
+}
+
+@article{rheault2022tractem,
+  title={TractEM: evaluation of protocols for deterministic tractography white matter atlas},
+  author={Rheault*, Francois and Bayrak*, Roza G and Wang, Xuan and Schilling, Kurt G and Greer, Jasmine M and Hansen, Colin B and Kerley, Cailey and Ramadass, Karthik and Remedios, Lucas W and Blaber, Justin A and others},
+  journal={Magnetic Resonance Imaging},
+  abbr={MRI},
+  volume={85},
+  pages={44--56},
+  year={2022},
+  annotation={*Equal contribution},
+  publisher={Elsevier},
+  google_scholar_id={WF5omc3nYNoC},
+  doi={10.1016/j.mri.2021.10.017},
+  altmetric={true},
+  dimensions={true},
+  preview={tractem.jpg}
+}
+
+@article{schilling2021tractography,
+  title={Tractography dissection variability: What happens when 42 groups dissect 14 white matter bundles on the same dataset?},
+  author={Schilling, Kurt G and Rheault, Fran{\c{c}}ois and Petit, Laurent and Hansen, Colin B and Nath, Vishwesh and Yeh, Fang-Cheng and Girard, Gabriel and Barakovic, Muhamed and Rafael-Patino, Jonathan and Yu, Thomas and others},
+  journal={Neuroimage},
+  abbr={Neuroimage},
+  volume={243},
+  pages={118502},
+  year={2021},
+  publisher={Elsevier},
+  doi={10.1016/j.neuroimage.2021.118502},
+  altmetric={true},
+  dimensions={true},
+  preview={kurt.jpg},
+  google_scholar_id={Y0pCki6q_DkC}
+}
+
+@inproceedings{bayrak2021brain,
+  title={From brain to body: learning low-frequency respiration and cardiac signals from fMRI dynamics},
+  author={Bayrak, Roza G and Hansen, Colin B and Salas, Jorge A and Ahmed, Nafis and Lyu, Ilwoo and Huo, Yuankai and Chang, Catie},
+  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2021: 24th International Conference, Strasbourg, France, September 27--October 1, 2021, Proceedings, Part VII 24},
+  abbr={MICCAI},
+  pages={553--563},
+  year={2021},
+  organization={Springer},
+  doi={10.1007/978-3-030-87234-2_52},
+  altmetric={true},
+  dimensions={true},
+  preview={rvhr_miccai.jpg},
+  google_scholar_id={eQOLeE2rZwMC}
+}
+
+}@article{salas2021reconstruction,
+  title={Reconstruction of respiratory variation signals from fMRI data},
+  author={Salas, Jorge A and Bayrak, Roza G and Huo, Yuankai and Chang, Catie},
+  journal={Neuroimage},
+  abbr={Neuroimage},
+  volume={225},
+  pages={117459},
+  year={2021},
+  publisher={Elsevier},
+  doi={10.1016/j.neuroimage.2020.117459},
+  altmetric={true},
+  dimensions={true},
+  preview={rv_ni.jpg},
+  google_scholar_id={W7OEmFMy1HYC}
+}
+
+@inproceedings{bayrak2020deep,
+  title={A deep pattern recognition approach for inferring respiratory volume fluctuations from fmri data},
+  author={Bayrak, Roza G and Salas, Jorge A and Huo, Yuankai and Chang, Catie},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  abbr={MICCAI},
+  pages={428--436},
+  year={2020},
+  organization={Springer},
+  preview={rv_miccai.jpg},
+  doi={10.1007/978-3-030-59728-3_42},
+  altmetric={true},
+  dimensions={true},
+  google_scholar_id={Tyk-4Ss8FVUC}
+}
+
+@inproceedings{bayrak2020pragma,
+  title={PRAGMA: Interactively Constructing Functional Brain Parcellations},
+  author={Bayrak*, Roza G and Hoang*, Nhung and Hansen, Colin B and Chang, Catie and Berger, Matthew},
+  booktitle={2020 IEEE Visualization Conference (VIS)},
+  abbr={IEEE VIS},
+  pages={46--50},
+  year={2020},
+  organization={IEEE},
+  preview={pragma.jpg},
+  altmetric={true},
+  bibtex_show={true},
+  dimensions={true},
+  annotation={*Equal contribution},
+  html={https://virtual-staging.ieeevis.org/year/2020/paper_s-short-1166.html},
+  video={https://www.youtube.com/watch?v=vBRBa5t1LfM&ab_channel=IEEEVisualizationConference},
+  abstract={PRAGMA is an interactive tool for constructing scan-specific brain parcellations from mainstream atlases. Its interface incorporates five complementary visuals: (A) abstract view of the hierarchical clustering of the brain through a node-link diagram, (B1) similarity of fMRI signal time-courses represented with a line plot with a shaded confidence interval, (B2) homogeneity glyphs within nodes, (C1) functional connectivity depicted as a chord diagram and (C2) anatomical location of parcels viewed on an orthographic template.}
+}
+
+@article{ge2025defining,
+  title={Defining and Benchmarking a Data-Centric Design Space for Brain Graph Construction},
+  author={Ge, Qinwen and Bayrak, Roza G and Said, Anwar and Chang, Catie and Koutsoukos, Xenofon and Derr, Tyler},
+  journal={arXiv preprint arXiv:2508.12533},
+  year={2025},
+  bibtex_show={true},
+  arxiv={2508.12533},
+  abbr={arXiv}
+}
+
+@article{pourmotabbed2025multimodal,
+  title={Multimodal state-dependent connectivity analysis of arousal and autonomic centers in the brainstem and basal forebrain},
+  author={Pourmotabbed, Haatef and Martin, Caroline G and Goodale, Sarah E and Doss, Derek J and Wang, Shiyu and Bayrak, Roza G and Kang, Hakmook and Morgan, Victoria L and Englot, Dario J and Chang, Catie},
+  journal={Imaging Neuroscience},
+  volume={3},
+  pages={IMAG--a},
+  year={2025},
+  publisher={MIT Press 255 Main Street, 9th Floor, Cambridge, Massachusetts 02142, USA},
+  abbr={Imag. Neurosci.},
+  bibtex_show={true},
+  code={https://github.com/neurdylab/brainstem_vigilance_connectivity},
+  doi={10.1101/2024.11.11.623092}
+}
+
+@article{rogge2025global,
+  title={Global effects in fMRI reveal brain markers of state and trait anxiety},
+  author={Rogge-Obando, Kimberly and Lee, Terra and Martin, Caroline G and Kaur, Kamalpreet and Li, Yamin and Harding, Jeffrey M and Wang, Shiyu and Song, Richard and Yang, Ruoqi and Guntaka, Rithwik and others},
+  journal={medRxiv},
+  year={2025},
+  abbr={medRxiv},
+  bibtex_show={true},
+  doi={10.1101/2025.07.15.25331571},
+}
+
+@article{clements2025quantitative,
+  title={Quantitative mapping of cerebrovascular reactivity amplitude and delay with breath-hold BOLD fMRI when end-tidal CO2 quality is low},
+  author={Clements, Rebecca G and Zvolanek, Kristina M and Reddy, Neha A and Hemmerling, Kimberly J and Bayrak, Roza G and Chang, Catie and Bright, Molly G},
+  journal={Imaging Neuroscience},
+  volume={3},
+  pages={imag\_a\_00536},
+  year={2025},
+  publisher={MIT Press 255 Main Street, 9th Floor, Cambridge, Massachusetts 02142, USA},
+  abbr={Imag. Neurosci.},
+  bibtex_show={true},
+  doi={10.1101/2024.11.18.624159},
+  code={https://github.com/BrightLab-ANVIL/Clements_BHCVR-PredictedCO2}
+}
+
+@inproceedings{nath2019learning,
+  title={Learning 3D White Matter Microstructure from 2D Histology},
+  author={Nath, Vishwesh and Schilling, Kurt G and Remedios, Samuel and Bayrak, Roza G and Gao, Yurui and Blaber, Justin A and Huo, Yuankai and Landman, Bennett A and Anderson, Adam W},
+  booktitle={2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019)},
+  pages={186--190},
+  year={2019},
+  organization={IEEE},
+  doi={10.1109/ISBI.2019.8759388},
+  bibtex_show={true},
+  altmetric={true},
+  dimensions={true},
+  abbr={ISBI}
+}
