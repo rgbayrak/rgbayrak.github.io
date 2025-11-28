@@ -10,7 +10,6 @@ related_publications: false
 
 <a href="https://neurdylab.github.io/physai">PhysAI</a> is a research suite I contribute to, dedicated to advancing the analysis of physiological signals collected concurrently with functional neuroimaging data. The tools are aimed to support research in exploring the complex interactions between the brain and body.
 
-
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/work/physai1.jpg" title="PhysAI overview" class="img-fluid rounded z-depth-1" %}
@@ -19,7 +18,6 @@ related_publications: false
 <div class="caption">
     Overview of the PhysAI research suite.
 </div>
-
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -59,8 +57,6 @@ Quality assessment presents several challenges: it is time-consuming, and rating
 
 PhysioQA addresses this gap with automated quality assessment for physiological recordings, reducing the burden on researchers while improving consistency across studies.
 
-
 ### Manual QA Tool
 
 For cases requiring human judgment or detailed inspection, there is a manual quality assessment interface. This tool allows researchers to visually inspect physiological recordings, flag artifacts, and annotate regions of concern—complementing the automated pipeline when nuanced evaluation is needed.
-

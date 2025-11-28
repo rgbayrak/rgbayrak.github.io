@@ -28,7 +28,7 @@ The grid technique breaks down the image into smaller, manageable sections. By f
 
 Creating a self-portrait is surprisingly challenging, and not just technically. Spending extended time studying your own face can be an uncomfortable experience. It requires confronting how you actually look versus how you imagine yourself, which can bring up unexpected emotions.
 
-Many artists find self-portraiture demanding and not just technically. There's also the strange disconnect of being both the observer and the observed. As <a href="https://blog.artweb.com/how-to/how-to-do-a-self-portrait/">ArtWeb article on self-portraiture</a> questions, is it the bravest form of art? 
+Many artists find self-portraiture demanding and not just technically. There's also the strange disconnect of being both the observer and the observed. As <a href="https://blog.artweb.com/how-to/how-to-do-a-self-portrait/">ArtWeb article on self-portraiture</a> questions, is it the bravest form of art?
 
 That said, the process can also be valuable. It builds patience and self-acceptance. "Self-portraiture can be an excellent tool for self-awareness and self-portraits can be a journey towards increased self-knowledge" [<a href="https://doi.org/10.1016/j.aip.2007.05.002">Simone Alter Muri</a>].
 
