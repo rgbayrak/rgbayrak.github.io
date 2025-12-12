@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of my projects.",
+          description: "A growing collection of the projects I led or made significant contribution.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -426,14 +426,14 @@ ninja.data = [{
           description: "Tools for physiological signal analysis in neuroimaging",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-tractem",
+          title: 'TractEM',
+          description: "Evaluating reproducibility of white matter tractography segmentation protocols",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-deepphysiorecon",
+          title: 'DeepPhysioRecon',
+          description: "Reconstructing physiological signals from fMRI dynamics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{
