@@ -1,0 +1,12 @@
+github_users:
+  - rgbayrak
+
+repo_description_lines_max: 2
+
+github_repos:
+  - rgbayrak/PhysAI
+  - brainhack-vandy/brainhack-vandy.github.io
+  - rgbayrak/NeuroGraph
+  - neurdylab/deep-physio-recon
+  - neurdylab/PRAGMA
+  - rgbayrak/NeuroBOLT
