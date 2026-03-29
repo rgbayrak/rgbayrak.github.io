@@ -926,6 +926,8 @@ pre {
     border-radius: 0;
     margin-bottom: 0;
     padding: 0;
+    white-space: inherit;
+    word-wrap: inherit;
   }
 }
 
@@ -938,6 +940,25 @@ code {
   // Inline code should wrap
   white-space: normal;
   word-wrap: break-word;
+}
+
+// Document preview — rendered markdown shown as an example file
+.doc-preview {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  padding: 1.5rem 2rem;
+  margin: 1.5rem 0;
+
+  &::before {
+    content: attr(data-filename);
+    display: block;
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
 }
 
 // Transitioning Themes

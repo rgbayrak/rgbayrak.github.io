@@ -97,4 +97,4 @@ DeepPhysioRecon is open source and available for use:
 
 ## Citation
 
-Bayrak RG, Hansen CB, Salas JA, Ahmed N, Lyu I, Mather M, Huo Y, Chang C. DeepPhysioRecon: Tracing peripheral physiology in low frequency fMRI dynamics. *Imaging Neuroscience*. 2025;3. <a href="https://doi.org/10.1162/IMAG.a.163">10.1162/IMAG.a.163</a> 
+Bayrak RG, Hansen CB, Salas JA, Ahmed N, Lyu I, Mather M, Huo Y, Chang C. DeepPhysioRecon: Tracing peripheral physiology in low frequency fMRI dynamics. _Imaging Neuroscience_. 2025;3. <a href="https://doi.org/10.1162/IMAG.a.163">10.1162/IMAG.a.163</a>

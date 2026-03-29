@@ -71,5 +71,4 @@ The TractEM protocol and all data have been made openly available to facilitate 
 
 The protocol, raw data, and results are available at the <a href="https://my.vanderbilt.edu/tractem/">TractEM project website</a>.
 
-**Citation**: Rheault F*, Bayrak RG*, Wang X, et al. TractEM: Evaluation of protocols for deterministic tractography white matter atlas. *Magnetic Resonance Imaging*. 2022;85:44-56. doi:<a href="https://doi.org/10.1016/j.mri.2021.10.017">10.1016/j.mri.2021.10.017</a>
-
+**Citation**: Rheault F*, Bayrak RG*, Wang X, et al. TractEM: Evaluation of protocols for deterministic tractography white matter atlas. _Magnetic Resonance Imaging_. 2022;85:44-56. doi:<a href="https://doi.org/10.1016/j.mri.2021.10.017">10.1016/j.mri.2021.10.017</a>

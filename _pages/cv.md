@@ -1,11 +1,11 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: resume
 nav: true
 nav_order: 5
-cv_pdf: cv_latest.pdf
-description: See the pdf for my academic curriculum vitae. Feel free to peruse the chronicles of my quest for knowledge.
+cv_pdf: Resume_RozaBayrak_04.2026
+description: Most recent resume. 
 toc:
   sidebar: left
 ---

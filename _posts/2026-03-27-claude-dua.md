@@ -7,9 +7,9 @@ tags: formatting code ai-assisted
 categories: AI-posts
 featured: true
 ---
- 
+
 > **A note before you read:** I am still learning this myself — this post is as much a note to myself as it is meant to be helpful to others. Everyone has their preferred tools, workflows, and institutional context — and the ai-assited coding landscape is changing fast. This post is not a prescriptive ruleset. It uses a specific project as a concrete example to illustrate the underlying principles of how a specific software (Claude Code) handles data, permissions, and memory. The right configuration for your situation depends on your tools, your datasets, and your institution's policies. Always check with your university's data governance office, IRB, and IT security team before using any AI coding assistant on governed research data.
- 
+
 ---
 
 **Context:** We are actively developing a browser-based visualization tool and testing it across three datasets each with different data governance requirements.
@@ -81,7 +81,7 @@ The Claude Code VSCode extension adds a sidebar panel with:
 - **Inline accept/reject** — approve individual hunks, not just whole files
 - **File navigation awareness** — Claude knows which file you have open
 
-> **Critical:** Always `cd` into your *tool's source root*, not a data directory, before launching Claude Code. Claude's write access is restricted to the folder it was started in and its subdirectories. Starting in the right place is your first line of defense.
+> **Critical:** Always `cd` into your _tool's source root_, not a data directory, before launching Claude Code. Claude's write access is restricted to the folder it was started in and its subdirectories. Starting in the right place is your first line of defense.
 
 ---
 
@@ -162,7 +162,7 @@ tmp/
 *.tmp
 ```
 
-> **Important:** `.claudeignore` prevents Claude from *proactively* reading these files. If you explicitly write `@data/sub-01/anat/sub-01_T1w.nii.gz` in a prompt, Claude will still attempt to read it. The ignore file is a scoping tool, not an access control. Pair it with deny rules.
+> **Important:** `.claudeignore` prevents Claude from _proactively_ reading these files. If you explicitly write `@data/sub-01/anat/sub-01_T1w.nii.gz` in a prompt, Claude will still attempt to read it. The ignore file is a scoping tool, not an access control. Pair it with deny rules.
 
 ### Project specific deny rules — add to .claude/settings.json
 
@@ -261,53 +261,58 @@ You can edit or delete these files at any time.
 
 Here is a concrete CLAUDE.md tailored to our situation — a browser-based neuroimaging viewer being developed and tested against ds000210, ds000664, and CNeuroMod Friends.
 
-```markdown
-# my-project — Claude Code Instructions
+<div class="doc-preview" data-filename="my-project/CLAUDE.md" markdown="1">
 
-## Test datasets and their governance
+### Test datasets and their governance
 
-### OpenNeuro ds000210
+#### OpenNeuro ds000210
+
 License: CC0 (fully open). No DUA.
-Path: data/ds000210/
-Claude MAY read: dataset_description.json, task sidecar JSONs (e.g. *physio.json),
-README. Claude must NOT read participant-level files or NIfTI volumes (Claude
-cannot process them and they waste context).
+Path: `data/ds000210/`
+Claude MAY read: `dataset_description.json`, task sidecar JSONs (e.g. `*physio.json`), README. Claude must NOT read participant-level files or NIfTI volumes.
 
-### OpenNeuro ds006644
+#### OpenNeuro ds006644
+
 License: CC0 (fully open). No DUA.
-Path: data/ds000664/
+Path: `data/ds000664/`
 Same rules as ds000210.
 
-### CNeuroMod Friends dataset
-Governed by a formal Data Use Agreement — third-party sharing is prohibited.
-Path: data/friends*
-YOU MUST NOT read, reference, print, or include any content from:
-- Any file under data/friends*
-- participants.tsv, *_sessions.tsv, or any subject-level metadata
-- Any sub-* directory
-If a task requires understanding the CNeuroMod data structure, ask me to
-describe it — do not attempt to read the files yourself.
+#### CNeuroMod Friends
 
-## Hard rules (apply to all datasets)
-- Never read .env, secret or any credentials file
-- Never run curl or wget
+Governed by a formal Data Use Agreement — third-party sharing is prohibited.
+Path: `data/friends*`
+YOU MUST NOT read, reference, print, or include any content from:
+
+- Any file under `data/friends*`
+- `participants.tsv`, `*_sessions.tsv`, or any subject-level metadata
+- Any `sub-*` directory
+
+If a task requires understanding the CNeuroMod data structure, ask me to describe it — do not attempt to read the files yourself.
+
+### Hard rules (apply to all datasets)
+
+- Never read `.env`, secret or any credentials file
+- Never run `curl` or `wget`
 - Never hardcode dataset paths — all paths via config or environment variables
 - Never print or log subject IDs in generated code
-- Never run git push
+- Never run `git push`
 
-## Code conventions (??)
-- All data I/O goes through src/io/ — do not add direct nibabel calls elsewhere
-- Dataset adapter pattern: each dataset has an adapter in src/adapters/
-- API routes in src/api/routes/ — one file per resource
-- Frontend components in src/components/ — prefer functional components
-- Types in src/types/ — shared between frontend and backend via openapi-ts
+### Code conventions (??)
 
-## Useful commands (??)
-- Dev server: npm run dev (starts both FastAPI and Vite)
-- Type generation: npm run gen:types
-- Lint: ruff check . && eslint src/
-- Format: black . && prettier --write src/
-```
+- All data I/O goes through `src/io/` — do not add direct nibabel calls elsewhere
+- Dataset adapter pattern: each dataset has an adapter in `src/adapters/`
+- API routes in `src/api/routes/` — one file per resource
+- Frontend components in `src/components/` — prefer functional components
+- Types in `src/types/` — shared between frontend and backend via openapi-ts
+
+### Useful commands (??)
+
+- Dev server: `npm run dev` (starts both FastAPI and Vite)
+- Type generation: `npm run gen:types`
+- Lint: `ruff check . && eslint src/`
+- Format: `black . && prettier --write src/`
+
+</div>
 
 ---
 
@@ -337,8 +342,8 @@ For visualization tool work specifically, this loop prevents a category of subtl
 Example Plan mode prompt for a visualization feature:
 
 ```
-We need to add brush functionality to zoom into the waveform in the context window. 
-Plan what changes are needed across the frontend. List the files you will touch. 
+We need to add brush functionality to zoom into the waveform in the context window.
+Plan what changes are needed across the frontend. List the files you will touch.
 Do not make any changes yet.
 ```
 
@@ -354,12 +359,12 @@ Give Claude exactly what it needs, nothing more. With a visualization tool it is
 
 ```bash
 # Good — specific source file references
-src/components/QATab/signal-workspace/SignalWorkspace.vue
+@src/components/QATab/signal-workspace/SignalWorkspace.vue
 Fix the mismatch between brushed and visualized zoom-in behavior.
 
 # Good — controlled multi-file context
-@src/components/graph-display/SignalsDashboard.vue src/components/QATab/signal-workspace/SignalWorkspace.vue
-Add the same cool feature for friends dataset following the same pattern.
+@src/components/graph-display/SignalsDashboard.vue @src/components/QATab/signal-workspace/SignalWorkspace.vue
+Add the same cool feature for friends dataset following the same pattern from other BIDS compatible datasets.
 Describe what it needs — I will fill in the data-specific details.
 
 # Avoid !! — broad exploration that may hit data directories
@@ -404,24 +409,29 @@ This pattern lets Claude help you build a thorough test suite without ever needi
 Run through this before starting any Claude Code session on this project.
 
 **Environment**
+
 - [ ] `cd` into the tool source root — not a data directory
 - [ ] `.claudeignore` present and includes `data/`
 - [ ] `.claude/settings.json` deny rules include `curl`, `wget`
 - [ ] `.env` blocked in `.claudeignore`
 
 **CLAUDE.md**
+
 - [ ] All three datasets named with their governance status
 - [ ] CNeuroMod Friends section marked as DUA-restricted with explicit DO NOT READ
 
 **Permission mode**
+
 - [ ] Using Normal mode or Plan mode for all dataset-adjacent work
 - [ ] Do not use Auto-accept or Bypass mode
 
 **Auto memory**
+
 - [ ] `autoMemoryEnabled: false` in `.claude/settings.json` OR
 - [ ] Memory files reviewed: `~/.claude/projects/<project-name>/memory/MEMORY.md`
 
 **Before committing**
+
 - [ ] `git status` shows no data files, no `.env` staged
 - [ ] No data appear in any changed source file
 - [ ] Session closed (`/exit`) before pushing
@@ -430,10 +440,10 @@ Run through this before starting any Claude Code session on this project.
 
 ## Closing thoughts
 
-The one-time setup — `.claudeignore`, `settings.json` deny rules, a solid `CLAUDE.md` — takes about 20 minutes. After that, Claude Code becomes a genuinely productive collaborator for the parts of this work it is suited for: debugging, documentation, organization. 
+The one-time setup — `.claudeignore`, `settings.json` deny rules, a solid `CLAUDE.md` — takes about 20 minutes. After that, Claude Code becomes a genuinely productive collaborator for the parts of this work it is suited for: debugging, documentation, organization.
 
 Your DUA doesn't know what a CLAUDE.md is. But it does know what a third-party API is. Configure accordingly.
 
 ---
 
-*Last updated: March 2026. Check the [official docs](https://docs.claude.com/en/docs/claude-code).
+\*Last updated: March 2026. Check the [official docs](https://docs.claude.com/en/docs/claude-code).
