@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "See the pdf for my academic curriculum vitae. Feel free to peruse the chronicles of my quest for knowledge.",
+        },{id: "nav-resume",
+          title: "resume",
+          description: "Most recent resume.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -107,7 +107,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/cv_latest.pdf", "_blank");
+          window.open("/assets/pdf/Resume_RozaBayrak_04.2026.pdf", "_blank");
         },
       },{
         id: 'social-email',
