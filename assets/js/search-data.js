@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -102,6 +102,16 @@ ninja.data = [{
           description: "Reconstructing physiological signals from fMRI dynamics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
+            },},{id: "projects-multi-api-literature-query-tool",
+          title: 'Multi-API Literature Query Tool',
+          description: "Search the scientific literature across multiple academic APIs in one workflow",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-interactively-constructing-functional-brain-parcellations",
+          title: 'Interactively Constructing Functional Brain Parcellations',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
             },},{
         id: 'social-cv',
         title: 'CV',
