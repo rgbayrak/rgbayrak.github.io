@@ -3,7 +3,7 @@ layout: page
 title: DeepPhysioRecon
 description: Reconstructing physiological signals from fMRI dynamics
 img: assets/img/publication_preview/dpr.png
-importance: 1
+importance: 2
 category: weekday
 ---
 
