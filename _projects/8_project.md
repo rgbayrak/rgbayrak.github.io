@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Interactively Constructing Functional Brain Parcellations
-description: 
+title: PRAGMA
+description: Interactively Constructing Functional Brain Parcellations
 img: assets/img/vu/pragma.png
 importance: 3
 category: weekday
