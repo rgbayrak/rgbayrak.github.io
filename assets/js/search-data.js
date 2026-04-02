@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-resume",
-          title: "resume",
-          description: "Most recent resume.",
+        },{id: "nav-cv",
+          title: "cv",
+          description: "My most recent resume and academic cv.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -107,11 +107,16 @@ ninja.data = [{
           description: "Search the scientific literature across multiple academic APIs in one workflow",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-interactively-constructing-functional-brain-parcellations",
-          title: 'Interactively Constructing Functional Brain Parcellations',
-          description: "",
+            },},{id: "projects-pragma",
+          title: 'PRAGMA',
+          description: "Interactively Constructing Functional Brain Parcellations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
+            },},{id: "projects-physai-viz",
+          title: 'PhysAI - Viz',
+          description: "Interactive Time Series Visualization Tool for BIDS Compatible Physiological Data",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-cv',
         title: 'CV',
