@@ -62,3 +62,8 @@ MALQ is open source and designed for practical use in real research workflows.
 > **Code:** <a href="https://github.com/rgbayrak/harvest-paper">GitHub</a>
 
 Whether you're preparing a systematic review, exploring a new topic, or building a paper corpus for machine learning, MALQ makes literature discovery faster, broader, and easier to reproduce.
+
+## Citation
+If you use this code in your research, please cite:
+
+> DOI: <a href="https://doi.org/10.5281/zenodo.19389717">10.5281/zenodo.19389717</a>

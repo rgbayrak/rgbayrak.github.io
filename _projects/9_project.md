@@ -100,3 +100,8 @@ This project is open source and designed for practical **BIDS-compatible physiol
 > **Code:** <a href="https://github.com/rgbayrak/d3-timeseries">GitHub</a>
 
 Whether you're validating physiology traces, curating datasets, or building neuroimaging QC pipelines, this viewer makes long-form physiological signal assessment faster, clearer, and easier to trust.
+
+## Citation
+If you use this code in your research, please cite:
+
+> DOI: <a href="https://doi.org/10.5281/zenodo.19389717">10.5281/zenodo.19389717</a>
