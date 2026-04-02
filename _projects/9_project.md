@@ -8,7 +8,7 @@ category: weekday
 
 ---
 
-In this project I have built an interactive visualization for **quality assessment of BIDS-compatible physiological recordings**. It is built to make it easier to inspect physiological traces—such as respiration, and cardiac recordings—together with auxiliary signals like framewise displacement, scan timing, and signal quality metrics. It combines reusable D3 interactions with BIDS-aware data loading, the viewer makes it easy to assess signal quality before downstream application steps.
+In this project, I have built an interactive visualization tool for **quality assessment of BIDS-compatible physiological recordings**. It is built to make it easier to inspect physiological traces—such as respiration, and cardiac recordings—together with auxiliary signals like framewise displacement, scan timing, and signal quality metrics. It combines reusable D3 interactions with BIDS-aware data loading, the viewer makes it easy to assess signal quality before downstream application steps.
 
 
 <div class="row justify-content-sm-center">

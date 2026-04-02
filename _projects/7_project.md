@@ -61,6 +61,6 @@ In practice, I treat it as a **high-recall first pass**: a way to catch as much 
 
 MALQ is open source and designed for practical use in real research workflows.
 
-- **Code:** <a href="https://github.com/rgbayrak/harvest-paper">GitHub</a>
+> **Code:** <a href="https://github.com/rgbayrak/harvest-paper">GitHub</a>
 
 Whether you're preparing a systematic review, exploring a new topic, or building a paper corpus for machine learning, MALQ makes literature discovery faster, broader, and easier to reproduce.
