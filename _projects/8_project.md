@@ -32,9 +32,9 @@ A prominent goal of neuroimaging studies is mapping the human brain, in order to
 
 The visualization design supports decisions about **when to expand, collapse, or merge parcels**, using a set of **linked and coordinated views** for:
 
-* understanding the current hierarchy
-* assessing intra-cluster variation
-* relating emerging parcellations to established atlases
+- understanding the current hierarchy
+- assessing intra-cluster variation
+- relating emerging parcellations to established atlases
 
 A user study with four neuroimaging experts demonstrated that PRAGMA can support exploration of **individualized and state-specific functional brain organization**, offering new insights into functional brain networks.
 
@@ -43,7 +43,6 @@ A user study with four neuroimaging experts demonstrated that PRAGMA can support
 ##### Overview
 
 PRAGMA begins with an **established atlas prior** and allows experts to refine parcels using **temporally correlated fMRI signals**.
-
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
@@ -65,9 +64,9 @@ The workflow typically follows:
 
 This creates a hierarchy of increasingly specialized parcels that can reveal:
 
-* subject-specific network organization
-* task-state differences
-* scan-specific deviations from atlas priors
+- subject-specific network organization
+- task-state differences
+- scan-specific deviations from atlas priors
 
 ---
 
@@ -78,6 +77,7 @@ PRAGMA combines a **Python-based clustering backend** with an **interactive D3.j
 The workflow begins with a reference atlas and scan-specific fMRI time series, from which parcel-level temporal correlations are computed. These similarity relationships drive a **hierarchical clustering pipeline**, allowing parcels to be recursively expanded, collapsed, or merged at different levels of granularity.
 
 The backend handles:
+
 - atlas and fMRI-derived connectivity preprocessing
 - hierarchical clustering computations
 - parcel similarity updates
@@ -95,6 +95,7 @@ To make the system easier to reproduce and share, the full application is **Dock
 PRAGMA is best thought of as an **interactive hypothesis-generation and exploration tool**.
 
 The resulting parcels still depend on:
+
 - the starting atlas
 - clustering thresholds
 - fMRI signal quality
@@ -122,6 +123,6 @@ If you use PRAGMA, please cite the IEEE VIS 2020 paper and link back to the orig
 
 ##### Links
 
-* **Paper (arXiv):** [https://arxiv.org/abs/2009.01697](https://arxiv.org/abs/2009.01697)
-* **Repo (GitHub):** [https://github.com/rgbayrak/PRAGMA/tree/master](https://github.com/rgbayrak/PRAGMA/tree/master)
-* **Venue:** IEEE VIS 2020
+- **Paper (arXiv):** [https://arxiv.org/abs/2009.01697](https://arxiv.org/abs/2009.01697)
+- **Repo (GitHub):** [https://github.com/rgbayrak/PRAGMA/tree/master](https://github.com/rgbayrak/PRAGMA/tree/master)
+- **Venue:** IEEE VIS 2020

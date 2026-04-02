@@ -7,9 +7,7 @@ importance: 4
 category: weekday
 ---
 
-
 The Multi-API Literature Query (MALQ) Tool solves this by letting you search multiple academic databases in a single workflow, combining broad coverage with reproducible search strategies. I built it for myself because it made it easy to **catch relevant papers in one reproducible workflow**. That personal need turned into a tool that I hope would help if you are doing broad or interdisciplinary literature discovery.
-
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
@@ -51,7 +49,7 @@ MALQ improves **recall, breadth, and reproducibility** by making it easy to sear
 
 MALQ is designed to cast a much wider net than searching a single database, but no automated literature search can guarantee perfect coverage.
 
-Results vary depending on the wording of the query, API availability, provider-side ranking behavior, and rate limits. Some APIs also require keys for higher throughput or more reliable batching, while others may occasionally return incomplete metadata. 
+Results vary depending on the wording of the query, API availability, provider-side ranking behavior, and rate limits. Some APIs also require keys for higher throughput or more reliable batching, while others may occasionally return incomplete metadata.
 
 In practice, I treat it as a **high-recall first pass**: a way to catch as much relevant work as possible early, then refine the search strategy based on what the first round reveals.
 
