@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "My most recent resume and academic cv.",
+          description: "My most recent resume.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -122,7 +122,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/Resume_RozaBayrak_04.2026.pdf", "_blank");
+          window.open("/assets/pdf/Resume_RozaBayrak.pdf", "_blank");
         },
       },{
         id: 'social-email',
